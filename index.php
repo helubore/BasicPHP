@@ -67,6 +67,27 @@ print "<br>";
 // lessons learnt print does not accept more than one parameter and that is the main difference with echo
 
 
+#php data types
+
+$name = "Helu Bore"; //string data type
+$age = 24; //integer type
+$weight = 72.5; //float
+$isMarried = false; //boolean
+$siblings = array("Ano","Abraham","Daniel"); //array
+$temp = NULL; //Null type
+$link = mysqli_connect('localhost','root',''); //resource type
+
+var_dump($name);
+var_dump($age);
+var_dump($weight);
+var_dump($isMarried);
+var_dump($siblings);
+var_dump($temp);
+var_dump($link);
+
+//var_dump function returns the data type as well as the values stored in the data
+
+
 ?>
 </body>
 </html>
