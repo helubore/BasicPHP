@@ -87,6 +87,16 @@ var_dump($link);
 
 //var_dump function returns the data type as well as the values stored in the data
 
+#php strings
+
+$str1 = "My name is";
+$str2 = "Helu Bore";
+
+//the statements below demo the difference btwn single and double quotes
+echo '$str1';
+echo "\n"; //single quotes treat the characters within literally
+echo "$str1 \t $str2"; //double quotes return the string value of the variable
+echo 'I\'ll be back';
 
 ?>
 </body>
